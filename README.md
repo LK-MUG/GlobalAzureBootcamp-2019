@@ -1,4 +1,4 @@
-﻿# Global Azure Bootcamp 2019 - Montréal & Ottawa, Canada
+﻿# Global Azure Bootcamp 2019 - Letterkenny, Ireland
 
 ![gablogo][gablogo]
 

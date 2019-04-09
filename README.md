@@ -1,5 +1,6 @@
 ﻿# Global Azure Bootcamp 2019 - Letterkenny, Ireland
 
+## Host: Letterkenny DotNet Azure User Group (www.lk-mug.org)
 ![gablogo][gablogo]
 
 All around the world user groups and communities want to learn about Azure and Cloud Computing!

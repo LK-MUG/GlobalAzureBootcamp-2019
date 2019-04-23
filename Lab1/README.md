@@ -6,6 +6,8 @@
 
 In this lab you will create an application in .Net Core, push it to a remote repository and create a Continuous Integration and Continuous Deployment (CI/CD) with the Azure DevOps Pipeline to deploy the website to Azure.
 
+![CICD](https://www.edureka.co/blog/content/ver.1531719070/uploads/2018/07/Asset-33-1.png)
+
 # Let's code!
 
 ## Build The Application
@@ -14,9 +16,9 @@ First, create a folder named `gab2019`. This will be the root folder for today's
 
     cd C:\dev\gab2019\
 
-Let's scaffold an application named GABCDemo using the following command:
+Let's scaffold an application named GABDemo using the following command:
 
-    dotnet new mvc -o GABCDemo
+    dotnet new mvc -o GABDemo
 
 Open the solution into Visual Studio Code with:
 
@@ -46,19 +48,23 @@ The next step is to create a placeholder for our website.  We will create an emp
 
 ![CloudShell][CloudShell]
 
+Login to your Azure account
+
+    az login
+    
 Don't forget to validate that you are in the good subscription. if you are not sure try `az account show` to display information about the current subscription.
 
 > Note: You might experience an error if you webapp name is not unique. (Conflict: Website with given name <web app name> already exists.) Make sure to use a unique name. ex: gab2019<your_initial><2digits_random_number> gab2019AV47
 
-    az group create --name gabcdemogroup --location eastus
+    az group create --name gabdemogroup --location eastus
 
-    az appservice plan create --name gabcdemoplan --resource-group gabcdemogroup --sku FREE
+    az appservice plan create --name gabdemoplan --resource-group gabdemogroup --sku FREE
 
-    az webapp create --name gabcdemo --resource-group gabcdemogroup --plan gabcdemoplan
+    az webapp create --name gabdemo --resource-group gabdemogroup --plan gabdemoplan
 
 The first command will create a Resource group. Then inside of this group we create a service plan, and finally we create a webapp to the mix.
 
-To validate that everything has been created, open a internet browser and navigate to the Azure Portal (portal.azure.com). From the left menu select *Resource Groups*. Click on the group *gabcdemogroup* that we just created, then click on the web App *gabcdemo*
+To validate that everything has been created, open a internet browser and navigate to the Azure Portal (portal.azure.com). From the left menu select *Resource Groups*. Click on the group *gabdemogroup* that we just created, then click on the web App *gabdemo*
 
 ![resourceGroup][resourceGroup]
 
@@ -195,7 +201,7 @@ Once the deployment is done, refresh your web browser where the web page was sho
 
 ## Reference
 
-- [Build, test, and deploy .NET Core apps in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core)
+- [Build, test, and deploy .NET Core apps in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core?WT.mc_id=globalazure-github-frbouche)
 
 ## End
 

@@ -8,10 +8,6 @@ In the previous lab, you deployed the container manually but it would be awesome
 
 Magical! To do so, let's start by creating a new pipeline.
 
-**>>>>TODO: CHECK IF YOU NEED TO DISABLE OR DELETE THE PREVIOUS PIPELINE**
-
-**>>>>TODO: CHECK IF YOU NEED TO CREATE A NEW WEB APP FOR CONTAINERS**
-
 ## Let's code!
 
 ### Create a new pipeline
@@ -72,21 +68,54 @@ Click on the **Triggers** tab and check **Enable continuous integration**.
 ![10][10]
 
 
-### Create a Webhook
+### Configure the Web App
 
-Create a **Webhook** from you Web App to your container following the steps you already did in the previous lab.
+Head to the Azure portal and locate the Web App you created in the previous lab.  We will change the container settings to point to the  container created by the pipeline.
 
-**>>>>TODO: REFERENCE THE LAB 3 STEPS**
+Click on the **Container Settings** link. Change the container name to the one located in the Azure Container Registry (the one that was just built by the pipeline).  Change the startup file to **GABCDemo.dll**.  
+
+Set **Continuous Deployment** to On.  This will create a Webhook to the container.  Now on, when an updated version of the container is pushed to ACR, the Web App will automatically pull the new container.
+
+
+### Test the Web App
+
+Launch a browser and test the app.
 
 
 ### Commit a change
 
-Back in **Code**, , make a simple change to a page, commit and push the change.  The pipeline will pick the change, build the code, create a container and deploy it to ACR.  The Web App will pick the change using the Webhook and pull the new container.
+Back in **Code**, make a simple change to the Home controller. Don't forget to save your work.
 
+Next, do a git commit, and a git push. You can do it directly from the terminal or from Code.
+
+Head now to Azure DevOps and open the pipeline we just created (don't edit it).  Notice that it will pick the code change automatically, create a container and deploy it to ACR.  The Web App will pick the change using the Webhook and pull the new container.  Wicked!
+
+
+### Cleaning up resources
+
+We are done using the containers. If you want, you can delete everything by deleting your resource group:
+
+```bash
+az group delete --name GAB2019Group
+# Enter 'y' to confirm
+```
+
+Or if you prefer to keep you other resources but only want to delete your running container, you can:
+
+```bash
+az container delete --resource-group GAB2019Group --name gab2019container
+# Enter 'y' to confirm
+```
+
+Then you can list the running containers to make sure it has been deleted:
+
+```bash
+az container list --resource-group GAB2019Group --output table
+```
 
 ## Reference
 
-[Deploy to an Azure Web App for Containers](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-docker-webapp?view=azdevops)
+[Deploy to an Azure Web App for Containers](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-docker-webapp?WT.mc_id=globalazure-github-frbouche&view=azdevops)
 
 ## End
 [Previous Lab](../Lab3/README.md)

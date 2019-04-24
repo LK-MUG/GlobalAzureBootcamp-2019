@@ -40,11 +40,10 @@ Time        | Duration | Tittle                                      | Descripti
 12h30-13h15 | 45 mins  | Lunch Break                                 |  Lunch and Networking 
 13h15-14h00 | 45 mins  | [Lab 3 - Container 1](./Lab3/README.md)     | Package the Application in a Docker container. Test it locally and deploy it manually to Azure Container Services.
 14h00-14h45 | 45 mins   | Session 3 - ARM Best Practices                |  Damian Flynn [MVP, Azure]
-14h45-15h30 | 45 mins  | [Lab 3 - Container 1](./Lab3/README.md)     | Package the Application in a Docker container. Test it locally and deploy it manually to Azure Container Services.
+14h45-15h30 | 45 mins  | [Lab 5 - AI](./Lab5/README.md)              | Add an Azure Cognitive Services Vision to the application to validate an image
 15h30-15h45 | 15 mins  | Coffee Break                                | Coffee break and Networking 
-15h45-16h30 | 45 mins  | [Lab 5 - AI](./Lab5/README.md)              | Add an Azure Cognitive Services Vision to the application to validate an image
-16h30-17h15 | 45 mins  | [Lab 6 - Serverless](./Lab6/README.md)      | Create an Azure Functions (blob trigger) to process all images in a blob storage and use the Vision API for filtering
-17h15-17h45 | 30 mins  | Ending                                      | Questions/ Networking/ Giveaway
+15h45-16h30 | 45 mins  | [Lab 6 - Serverless](./Lab6/README.md)      | Create an Azure Functions (blob trigger) to process all images in a blob storage and use the Vision API for filtering
+16h30-17h00 | 30 mins  | Ending                                      | Questions/ Networking/ Giveaway
 
 #### Cancelled - Due to Time Sensitivity, but you can individually go through  from the link below. Home work for you all. :-)
 Time        | Duration | Tittle                                      | Description  

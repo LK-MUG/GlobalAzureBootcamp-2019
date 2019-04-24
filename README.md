@@ -31,23 +31,24 @@ The team has been assigned a couple of days to find tools & put new processes in
 
 Time        | Duration | Tittle                                      | Description  
 :----:      | :------: | :-------                                    | :----------- 
-08h30-9h00  | 30 mins  | [Arrival/ Coffee](./Locations/README.md)    | Grab a seat, get your coffee, install your laptop...
-09h00-09h45 | 45 mins  | Session - Discovering Azure                 | introducing Azure and the core concepts that are the foundation of our cloud platform. We'll start with a discussion of what cloud computing is and what Azure can offer you and your team. We'll then take a look at basic services and features, setting up an account and subscription along the way. We'll then tour the Azure Portal and do a quick overview of the Resources available and what they do from a high level.
-09h45-10h15| 30 mins  | Session - Discovering Azure tooling and utilities  | We'll also introduce you to the Azure Cloud Shell, which allows you to work with Azure resources without the need for the Portal. Finally we'll show you how Azure Resource Management (ARM) templates can save you time and help you automate infrastructure, reducing the chance of errors during manual human input.
-10h15-11h00 | 45 mins  | [Lab 1 - CI/CD ](./Lab1/README.md)          | Create an .Net Core App, put it in GitHub/ or Azure DevOps Repo. Create an Azure DevOps CI/CD, and deploy a webapp.
-11h00-11h15 | 15 mins  | Coffee Break                                | Coffee break and Networking 
-11h15-12h00 | 45 mins  | [Lab 2 - ARM template](./Lab2/README.md)    | Create an ARM template , also add a storage to the mix, modify the CICD to deploy.
-12h00-12h45 | 45 mins  | [Lab 3 - Container 1](./Lab3/README.md)     | Package the Application in a Docker container. Test it locally and deploy it manually to Azure Container Services.
-12h45-1h30 | 45 mins  | Lunch Break                                 |  Lunch and Networking 
-1h30-2h15 | 45 mins   | Session - ARM Best Practices                |  Damian Flynn [MVP, Azure]
-2h15-15h00 | 45 mins  | [Lab 5 - AI](./Lab5/README.md)              | Add an Azure Cognitive Services Vision to the application to validate an image
-15h00-15h45 | 45 mins  | [Lab 6 - Serverless](./Lab6/README.md)      | Create an Azure Functions (blob trigger) to process all images in a blob storage and use the Vision API for filtering
-15h45-16h00 | 15 mins  | Coffee Break                                | Coffee break and Networking 
-16h00-16h45 | 45 mins  | [Lab 7 - Security](./Lab7/README.md)        | Moving all the keys and sensible information to a KeyVault
-16h45-17h30 | 30 mins  | Ending                                      | Questions/ Networking/ Giveaway
+09h30-9h30  | 30 mins  | [Arrival/ Coffee](./Locations/README.md)    | Grab a seat, get your coffee, install your laptop...
+09h30-10h15 | 45 mins  | Session 1 - Discovering Azure               | introducing Azure and the core concepts that are the foundation of our cloud platform. We'll start with a discussion of what cloud computing is and what Azure can offer you and your team. We'll then take a look at basic services and features, setting up an account and subscription along the way. We'll then tour the Azure Portal and do a quick overview of the Resources available and what they do from a high level.
+10h15-10h45| 30 mins  | Session 2 - Discovering Azure tooling and utilities | We'll also introduce you to the Azure Cloud Shell, which allows you to work with Azure resources without the need for the Portal. Finally we'll show you how Azure Resource Management (ARM) templates can save you time and help you automate infrastructure, reducing the chance of errors during manual human input.
+10h45-11h00 | 15 mins  | Coffee Break                                | Coffee break and Networking 
+11h00-11h45 | 45 mins  | [Lab 1 - CI/CD ](./Lab1/README.md)          | Create an .Net Core App, put it in GitHub/ or Azure DevOps Repo. Create an Azure DevOps CI/CD, and deploy a webapp.
+11h45-12h30 | 45 mins  | [Lab 2 - ARM template](./Lab2/README.md)    | Create an ARM template , also add a storage to the mix, modify the CICD to deploy.
+12h30-13h15 | 45 mins  | Lunch Break                                 |  Lunch and Networking 
+13h15-14h00 | 45 mins  | [Lab 3 - Container 1](./Lab3/README.md)     | Package the Application in a Docker container. Test it locally and deploy it manually to Azure Container Services.
+14h00-14h45 | 45 mins   | Session 3 - ARM Best Practices                |  Damian Flynn [MVP, Azure]
+14h45-15h30 | 45 mins  | [Lab 3 - Container 1](./Lab3/README.md)     | Package the Application in a Docker container. Test it locally and deploy it manually to Azure Container Services.
+15h30-15h45 | 15 mins  | Coffee Break                                | Coffee break and Networking 
+15h45-16h30 | 45 mins  | [Lab 5 - AI](./Lab5/README.md)              | Add an Azure Cognitive Services Vision to the application to validate an image
+16h30-17h15 | 45 mins  | [Lab 6 - Serverless](./Lab6/README.md)      | Create an Azure Functions (blob trigger) to process all images in a blob storage and use the Vision API for filtering
+17h15-17h45 | 30 mins  | Ending                                      | Questions/ Networking/ Giveaway
 
-#### Cancelled - Due to Time Sensitivity, but you can individually go through  from the link below
+#### Cancelled - Due to Time Sensitivity, but you can individually go through  from the link below. Home work for you all. :-)
 12h45-12h30 | 45 mins  | [Lab 4 - Containers 2](./Lab4/README.md)    | Create a new CI/CD pipeline to automate the container creation and deployment 
+16h00-16h45 | 45 mins  | [Lab 7 - Security](./Lab7/README.md)        | Moving all the keys and sensible information to a KeyVault
 ## Technology Stack required for the Global Azure Bootcamp 2019
 
 All Platforms (Windows, MacOS, Linux)

@@ -125,8 +125,8 @@ GitHub is a development platform inspired by the way you work. From open source 
 
 Contact our volunteers:
 
-- Frank Boucher : Twitter [@fboucheros](https://twitter.com/fboucheros)
-- Alain Vezina : Twitter [@avezina](https://twitter.com/avezina)
+- Nithin Mohan TK : Twitter [@nithinmohantk](https://twitter.com/nithinmohantk)
+- Velin Georgiev : Twitter [@VelinGeorgiev](https://twitter.com/VelinGeorgiev)
 
 [Next Lab](../Lab1/README.md)
 

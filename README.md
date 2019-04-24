@@ -31,18 +31,22 @@ The team has been assigned a couple of days to find tools & put new processes in
 
 Time        | Duration | Tittle                                      | Description  
 :----:      | :------: | :-------                                    | :----------- 
-08h30-9h00  | 30 mins  | [Arrival/ Coffee](./Locations/README.md)    | Grab a seat, get your coffee, install your laptop...
-09h00-9h15  | 15 mins  | Intro                                       | Intro, agenda
-09h15-10h15 | 60 mins  | [Lab 1 - CI/CD ](./Lab1/README.md)          | Create an .Net Core App, put it in GitHub/ or Azure DevVops Repo. Create an Azure DevOps CI/CD, and deploy a webapp.
-10h15-11h00 | 45 mins  | [Lab 2 - ARM template](./Lab2/README.md)    | Create an ARM template , also add a storage to the mix, modify the CICD to deploy.
-11h00-11h45 | 45 mins  | [Lab 3 - Container 1](./Lab3/README.md)     | Package the Application in a Docker container. Test it locally and deploy it manually to Azure Container Services.
-11h45-12h30 | 45 mins  | [Lab 4 - Containers 2](./Lab4/README.md)    | Create a new CI/CD pipeline to automate the container creation and deployment 
-12h30-13h15 | 45 mins  | Lunch                                       | Lunch
-13h15-14h00 | 45 mins  | [Lab 5 - AI](./Lab5/README.md)              | Add an Azure Cognitive Services Vision to the application to validate an image
-14h00-14h45 | 45 mins  | [Lab 6 - Serverless](./Lab6/README.md)      | Create an Azure Functions (blob trigger) to process all images in a blob storage and use the Vision API for filtering
-14h45-15h30 | 45 mins  | [Lab 7 - Security](./Lab7/README.md)        | Moving all the keys and sensible information to a KeyVault
-15h30-16h00 | 30 mins  | Ending                                      | Questions/ Networking/ Giveaway
+09h00-9h30  | 30 mins  | [Arrival/ Coffee](./Locations/README.md)    | Grab a seat, get your coffee, install your laptop...
+09h30-10h15 | 45 mins  | Session - Discovering Azure                 | Intro, agenda
+10h15-11h00 | 60 mins  | [Lab 1 - CI/CD ](./Lab1/README.md)          | Create an .Net Core App, put it in GitHub/ or Azure DevOps Repo. Create an Azure DevOps CI/CD, and deploy a webapp.
+11h00-11h15 | 15 mins  | Coffee Break                                | Coffee break and Networking 
+11h15-12h00 | 45 mins  | [Lab 2 - ARM template](./Lab2/README.md)    | Create an ARM template , also add a storage to the mix, modify the CICD to deploy.
+12h00-12h45 | 45 mins  | [Lab 3 - Container 1](./Lab3/README.md)     | Package the Application in a Docker container. Test it locally and deploy it manually to Azure Container Services.
+12h45-1h30 | 45 mins  | Lunch Break                                 |  Lunch and Networking 
+1h30-2h15 | 45 mins   | Session - ARM Best Practices                |  Damian Flynn [MVP, Azure]
+2h15-15h00 | 45 mins  | [Lab 5 - AI](./Lab5/README.md)              | Add an Azure Cognitive Services Vision to the application to validate an image
+15h00-15h45 | 45 mins  | [Lab 6 - Serverless](./Lab6/README.md)      | Create an Azure Functions (blob trigger) to process all images in a blob storage and use the Vision API for filtering
+15h45-16h00 | 15 mins  | Coffee Break                                | Coffee break and Networking 
+16h00-16h45 | 45 mins  | [Lab 7 - Security](./Lab7/README.md)        | Moving all the keys and sensible information to a KeyVault
+16h45-17h30 | 30 mins  | Ending                                      | Questions/ Networking/ Giveaway
 
+#### Cancelled - Due to Time Sensitivity, but you can individually go through  from the link below
+12h45-12h30 | 45 mins  | [Lab 4 - Containers 2](./Lab4/README.md)    | Create a new CI/CD pipeline to automate the container creation and deployment 
 ## Technology Stack required for the Global Azure Bootcamp 2019
 
 All Platforms (Windows, MacOS, Linux)

@@ -47,6 +47,8 @@ Time        | Duration | Tittle                                      | Descripti
 17h15-17h45 | 30 mins  | Ending                                      | Questions/ Networking/ Giveaway
 
 #### Cancelled - Due to Time Sensitivity, but you can individually go through  from the link below. Home work for you all. :-)
+Time        | Duration | Tittle                                      | Description  
+:----:      | :------: | :-------                                    | :----------- 
 12h45-12h30 | 45 mins  | [Lab 4 - Containers 2](./Lab4/README.md)    | Create a new CI/CD pipeline to automate the container creation and deployment 
 16h00-16h45 | 45 mins  | [Lab 7 - Security](./Lab7/README.md)        | Moving all the keys and sensible information to a KeyVault
 ## Technology Stack required for the Global Azure Bootcamp 2019

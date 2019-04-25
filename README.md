@@ -2,7 +2,7 @@
 
 ### Host: Letterkenny DotNet Azure User Group (www.lk-mug.org)
 
-* Register Now @ [Meetup](https://www.meetup.com) *
+* Register Now @ [Meetup](https://bit.ly/GAB2019LK)
 
 ![gablogo][gablogo]
 

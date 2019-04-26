@@ -255,9 +255,9 @@ To do that:
 
     ```bash
     # Create a resource group in Toronto
-    az group create --name GAB2019Group --location canadacentral
+    az group create --name GAB2019Group --location centralus
     # Create a resource group in Québec
-    az group create --name GAB2019Group --location canadaeast
+    az group create --name GAB2019Group --location centralus
     ```
 
 1. Create a container registry (to push our Docker image into). The `<acrName>` must be unique Azure-wide (not just your account). For example, I named mine `GAB2019ContainerRegistry`.

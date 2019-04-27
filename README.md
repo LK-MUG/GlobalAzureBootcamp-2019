@@ -75,3 +75,6 @@ Make sure to have your account up and ready before the bootcamp.
 [Create your free Azure account today](https://azure.microsoft.com/en-us/free/)
 
 [gablogo]: ./medias/GlobalAzureBootcamp2019.png "Global Azure Bootcamp 2019"
+
+Azure Funcitons getting started:
+http://bit.ly/lk-func

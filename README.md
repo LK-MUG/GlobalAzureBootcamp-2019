@@ -35,8 +35,7 @@ The team has been assigned a couple of days to find tools & put new processes in
 Time        | Duration | Tittle                                      | Description  
 :----:      | :------: | :-------                                    | :----------- 
 09h30-9h30  | 30 mins  | [Arrival/ Coffee](./Locations/README.md)    | Grab a seat, get your coffee, install your laptop...
-09h30-10h15 | 45 mins  | *Session 1 - Discovering Azure*               | introducing Azure and the core concepts that are the foundation of our cloud platform. We'll start with a discussion of what cloud computing is and what Azure can offer you and your team. We'll then take a look at basic services and features, setting up an account and subscription along the way. We'll then tour the Azure Portal and do a quick overview of the Resources available and what they do from a high level.
-10h15-10h45| 30 mins  | *Session 2 - Discovering Azure tooling and utilities* | We'll also introduce you to the Azure Cloud Shell, which allows you to work with Azure resources without the need for the Portal. Finally we'll show you how Azure Resource Management (ARM) templates can save you time and help you automate infrastructure, reducing the chance of errors during manual human input.
+09h30-10h45 | 45 mins  | *[Session 1 - Discovering Azure, tooling and utilities](./medias/Session1_Azure_Fundamentals.pdf)*               | introducing Azure and the core concepts that are the foundation of our cloud platform. By Nithin Mohan, Velin Georgiev
 10h45-11h00 | 15 mins  | Coffee Break                                | Coffee break and Networking 
 11h00-11h45 | 45 mins  | [Lab 1 - CI/CD ](./Lab1/README.md)          | Create an .Net Core App, put it in GitHub/ or Azure DevOps Repo. Create an Azure DevOps CI/CD, and deploy a webapp.
 11h45-12h30 | 45 mins  | [Lab 2 - ARM template](./Lab2/README.md)    | Create an ARM template , also add a storage to the mix, modify the CICD to deploy.
